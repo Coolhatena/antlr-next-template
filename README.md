@@ -1,6 +1,6 @@
 To compile the Antlr4 .g4 file, use this command on src:
 ```
-antlr -Dlanguage=JavaScript -o ./src/ -visitor -no-listener ./grammar/Calculator.g4
+$ antlr -Dlanguage=JavaScript -o ./src/ -visitor -no-listener ./grammar/<filename>.g4
 ```
 
 
