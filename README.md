@@ -1,3 +1,9 @@
+To compile the Antlr4 .g4 file, use this command on src:
+```
+antlr -Dlanguage=JavaScript -o ./src/ -visitor -no-listener ./grammar/Calculator.g4
+```
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
